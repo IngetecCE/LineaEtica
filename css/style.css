@@ -1,6 +1,6 @@
 
 body {
-    font: 400 15px/1.8 Lato, sans-serif;
+    font: 400 15px/2 Lato, sans-serif;
     color: rgb(71, 70, 116);
 }
 h3, h4 {
@@ -15,7 +15,7 @@ h2 {
     margin: 10px 5px 0px 5px;
     background-color: rgb(59, 90, 117) ;
     font-style: bold;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
@@ -42,13 +42,12 @@ h5 {
     margin: 10px 5px 20px 5px;
     background-color: rgb(188, 190, 192) ;
     font-style: bold;
-    letter-spacing: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color: #1d0c3b;
     animation-delay: initial;
     direction: "rigth";
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-name: slidein;
   }
   
@@ -77,11 +76,11 @@ h5 {
 #logo {
     width: 200px; 
     height: 50px;
-    margin: 1px 20px 5px 150px;}
+    margin: 1px 20px 5px 80px;}
 
 
 .container {
-    padding: 80px 120px;
+    padding: 100px 100px;
 }
 .person {
     border: 10px solid transparent;
