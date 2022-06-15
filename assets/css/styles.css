@@ -76,10 +76,6 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width: 1024px){
-
-
-}
 
 @media screen and (max-width: 768px){
 
@@ -89,6 +85,7 @@
   
   .section-title{
     font-size: 1%;
+    width: 100%;
   }
 
   *,::before,::after{
@@ -141,11 +138,31 @@
 
 @media screen and (max-width: 450px){
 
+
   .project-img{
     width: 80px;
     margin-left: 25%;
   }
 }
+
+@media screen and (max-width: 400px){
+
+  .section{
+    width: 140%;;
+  }
+
+  nav .nav-menu ul.nav-list li.nav-item a.nav-link{
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 350px){
+
+  .section{
+    width: 150%;;
+  }
+}
+
 
 
 /*===== BASE =====*/
@@ -273,7 +290,7 @@ nav .nav-menu .nav-close{
   top: 1rem;
   right: 1rem;
   font-size: 2rem;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
@@ -283,7 +300,7 @@ nav .nav-menu ul.nav-list li.nav-item{
 
 nav .nav-menu ul.nav-list li.nav-item a.nav-link{
 
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   color: var(--first-color-lighten);
   font-weight: var(--font-bold);
