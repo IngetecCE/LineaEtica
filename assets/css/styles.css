@@ -65,7 +65,7 @@
 
 .centrado{
   position: absolute;
-  top: 30%;
+  top: 175%;
   left: 60%;
   transform: translate(-50%, -50%);
   color: rgb(47, 87, 219);
@@ -76,36 +76,29 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+@media screen and (max-width: 1024px){
 
-@media screen and (max-width: 1000px){
-  .centrado{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 1px 2px rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 1.3em;
-    text-align: center;
-  }
+
 }
 
 @media screen and (max-width: 768px){
-  .centrado{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 1px 2px rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
+
+  .section .project-data{
+    margin-left: -1rem;
+  }
+  
+  .section-title{
+    font-size: 1%;
+  }
+
+  *,::before,::after{
+    box-sizing: border-box;
   }
 
   .section{
     padding: 4rem 0 2rem;
-    width: 120%;
-    margin-left: -4.5rem;
+    width: 110%;
+    margin-left: -3rem;
   }
 
   .project-container{
@@ -124,30 +117,13 @@
 
 
 @media screen and (max-width: 550px){
-  .centrado{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 1px 2px rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 0.7em;
-    text-align: center;
-  }
+
 
   .section{
     width: 130%;
-    margin-left: -5.5rem;
+    margin-left: -4rem;
   }
 
-  .project-data{
-    padding: -2rem -4rem;
-  }
-
-  .project-container{
-    padding: 5rem 2rem;
-    border-radius: 0.5rem
-  }
 
   .project-img{
     width: 100px;
@@ -164,25 +140,6 @@
 }
 
 @media screen and (max-width: 450px){
-  .centrado{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 1px 2px rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 0.7em;
-    text-align: center;
-  }
-
-  .section{
-    width: 140%;
-    margin-left: -5rem;
-  }
-
-  .contact-container{
-    width: 1rem;
-  }
 
   .project-img{
     width: 80px;
@@ -196,9 +153,7 @@
   box-sizing: border-box;
 }
 
-html{
-  scroll-behavior: smooth;
-}
+
 
 body{
 
@@ -242,7 +197,7 @@ img{
 }
 
 .section-title{
-  font-size: var(--h1-font-size);
+  font-size: 1.5rem;
   color: var(--first-color);
   margin-bottom: var(--mb-3);
   text-align: center;
@@ -303,8 +258,8 @@ nav .nav-menu{
   position: fixed;
   top: 0;
   left: -100%;
-  width: 90%;
-  height: 100vh;
+  width: 70%;
+  height: 100%;
   padding: 3rem;
   display: flex;
   align-items: center;
@@ -907,7 +862,7 @@ footer.footer .footer-container .footer-copy{
     height: 10vh;
   }
   section.about .about-container .about-data img.about-img{
-    width: 260px;
+    width: 100px;
   }
   .section{
     padding: 3rem 0 2rem;
